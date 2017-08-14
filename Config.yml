@@ -1,0 +1,145 @@
+####################################
+# Welcome To DyePvP Core
+# Made By DevilSlide
+KITMAP_MODE: false # If true, this will disable Deathbans.
+###################################
+StarterEconomy: 500
+###################################
+Classes:
+  Archer:
+   Name: "Archer"
+   Enabled: true
+  Bard:
+   Name: "Bard"
+   Enabled: true
+   Energy:
+    Saturation: 25
+    Speed: 35
+    Strength: 45
+    Resistance: 35
+    Regeneration: 30
+    Jump: 25
+    Wither: 35
+    FireResistance: 25
+  Miner:
+   Name: "Miner"
+   Enabled: true
+   ScoreboardWithMoreStuff: false
+  Supporter:
+   Name: "Wizard"
+   Enabled: true
+  Rogue:
+   Name: "Rogue"
+   Enabled: true
+###################################
+Scoreboard:
+  PvPTimer: 
+   Name: "PvP Timer"
+   Color: "&a&l"
+   Time: "30m"
+  Combat:
+   Name: "Spawn Tag"
+   Color: "&c&l"
+   Time: "30s"
+  Enderpearl:
+   Name: "Enderpearl"
+   Color: "&e&l"
+   Time: "16s"
+  Gapple:
+   Name: "Gapple"
+   Color: "&6&l"
+   Time: "8h"
+  Teleport:
+   Name: "Teleport"
+   Color: "&3&l"
+   Time: "10s"
+  Stuck:
+   Name: "Stuck"
+   Color: "&4&l"
+   Time: "2m"
+  Mark:
+   Name: "Archer Tag"
+   Color: "&6&l"
+   Time: "8s"
+  Apple:
+   Name: "Apple"
+   Color: "&6&l"
+   Time: "5s"
+  Warmup:
+   Name: "Class Warmup"
+   Color: "&b&l"
+   Time: "3s"
+  Logout:
+   Name: "Logout"
+   Color: "&4&l"
+   Time: "30s"
+  Kills:
+   Name: "&4&lKills&7: &c%kills%"
+  Deaths:
+   Name: "&4&lDeaths&7: &c%deaths%"
+  Timers:
+   Color: "&c"
+  Title:
+   Name: "&6&lDye&f&lPvP &f[&6Map &f1&6]"
+###################################
+Cobblestone:
+ Enabled: "&eCobblestone pickups have been &aenabled&e."
+ Disabled: "&eCobblestone pickups have been &cdisabled&e."
+Gopple:
+ Disabled: "&eYour &a%timer&e is currently not active.%"
+ Enabled: "&eYour &a%timer% &etimer is active for another &a%time%&e."
+Help:
+ - "&7&m--------------"
+ - "&e&lPUT YOUR HELP"
+ - "&7&m--------------"
+Teamspeak: "ts.yourserver.com"
+Blacklist:
+ Reason: "You have been blacklisted"
+ Broadcast: "&4&l%banned% &chas been blacklisted."
+ClearChat: "&a%player% &ehas cleared chat for &a%reason%&e."
+Autosave:
+ Time: "1h" #Example - 1h30s/30m/1s
+ Broadcast: "&6&lALL FACTIONS HAVE BEEN SAVED"
+Staffmode:
+ Enabled: "&eYour staffmode has been &aenabled&e."
+ Disabled: "&eYour staffmode has been &cdisabled&e."
+CopyInventory: "&eYou have copied &a%player%'s &einventory."
+Hub:
+ Server: "lobby"
+ Connect: "&eYou have been sent to the &6&lHub&e."
+ Failed: "&cWe could not connect you to the hub."
+Mutechat:
+ Enabled: "&a%player% &ehas &cdisabled &ethe global chat for &a%time%&e."
+ Disabled: "&a%player% &ehas &aenabled &ethe global chat."
+EndExit:
+ X: 0.0
+ Y: 75.0
+ Z: 200.0
+Chat:
+ WithFaction: "&6[&e%faction%&6]&f %prefix% %player%: &f%msg%"
+ WithoutFaction: "&f%prefix% %player%:&f %msg%"
+ Faction: "&3(Faction) %player%&7: &e%msg%"
+ Alliance: "&d(Alliance) %player%&7: &e%msg%"
+Deathban:
+ Time: "30m"
+ Eotw: "&cYou have died &7(Eotw)"
+ Normal: "&cYou are deathbanned for %reason% &7- &cTime: %time%"
+ Ranks:
+  First:
+   Time: "10m"
+   Permission: "andromeda.rank.first"
+  Second:
+   Time: "30m"
+   Permission: "andromeda.rank.second"
+  Third:
+   Time: "1h"
+   Permission: "andromeda.rank.third"
+  Fourth:
+   Time: "1h30m"
+   Permission: "andromeda.rank.fourth"
+Freeze:
+ Inventory: true
+Mobdrops:
+ Enabled: "&eMobDrops pickups have been &aenabled&e."
+ Disabled: "&eMobDrops pickups have been &cdisabled&e."
+
